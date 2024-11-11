@@ -29,4 +29,5 @@ class Travel extends Model
             get:fn($value ,$attributes) => $attributes['number_of_days']-1
         );
     }
+    
 }
